@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import "./plugins/bootstrap"
+import "./plugins/http"
 Vue.config.productionTip = false
 
 new Vue({
